@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Проверка работоспособности чекбокса принятия условий.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Нажать на чекбокс.</steps>
+																								<expected>Чекбокс включается.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Проверка списка тематики обращения</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Раскрыть список пропозиций.</steps>
+																								<expected>Список раскрывается.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Проверка поля &quot;Имя&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. В поле ввода имени ввести данные.</steps>
+																								<expected>Данные вводятся корректно.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Проверка поля &quot;email&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. В поле ввода Email ввести емэйл.</steps>
+																								<expected>Емэйл вводится корректно.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Проверка поля ввода номера телефона</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. В поле ввода номера телефона ввести цифрами телефон.</steps>
+																								<expected>Номер телефона вводится корректно.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Проверка выбора страны &quot;Молдова&quot; в списке номеров телефона.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. В форме ввода телефона раскрыть список и выбрать страну &quot;Молдова&quot;.</steps>
+																								<expected>Страна Молдова выбирается в списке.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Проверка выбора страны &quot;Украина&quot; в списке стран при выбранной стране &quot;Молдова&quot;.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<preconds>
+								<![CDATA[ 1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. В форме ввода телефона раскрыть список и выбрать страну "Молдова".]]>
+							</preconds>
+																								<steps>3. В форме ввода телефона раскрыть список и выбрать страну &quot;Украина&quot;.</steps>
+																								<expected>Страна &quot;Украина&quot; выбирается корректно.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Проверка открытия формы прикрепления документа.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Нажать на кнопку &quot;Прикрепить документ&quot;.</steps>
+																								<expected>Форма прикрепления документа открывается.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Проверка поля &quot;комменарий&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. В поле ввода комментария ввести текст комментария.</steps>
+																								<expected>В поле ввода комментария ввести текст вводится корректно.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Проверка поведения кнопки &quot;Отправить&quot; при наведении.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Навести курсор мыши на надпись &quot;комментарий&quot;.</steps>
+																								<expected>Иконка курсора мыши справа от надписи изменит цвет и повернется вправо по своей оси.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Проверка ввода букв в поле ввода номера телефона (negative).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. В поле ввода номера телефона начать вводить текст.</steps>
+																								<expected>Текст в поле ввода номера телефона не вводится.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Проверка ввода символов в поле ввода имени (negative).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Ввести символы &quot;;?*-*-*-*-*&quot; в поле ввода имени.</steps>
+																								<expected>В поле ввода имени символы не вводятся.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Проверка ввода символов в поле ввода &quot;email&quot; (negative).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Ввести символы &quot;/*-/*-/*-@com.com&quot;</steps>
+																								<expected>Служебные символы в поле ввода email не вводятся.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Проверка загрузки исполняемого файла вместо текста (negative).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Нажать кнопку &quot;Прикрепить документ&quot;.
+4. Попытаться загрузить exe файл.</steps>
+																								<expected>Загрузка исполняемых файлов невозможна.</expected>
+															</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Проверка отправки незаполненной формы обратной связи с не нажатым чекбоксом &quot;принять политику&quot; (negative).</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+																		<automation_type><id>0</id><value> None</value></automation_type>
+																								<steps>1. Открыть главную страницу.
+2. Промотать страницу вниз до формы обратной связи.
+3. Нажать кнопку &quot;Отправить&quot;.</steps>
+																								<expected>Форма без заполненных данных не отправляется.</expected>
+															</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
